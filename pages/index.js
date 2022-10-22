@@ -17,10 +17,10 @@ export default function Home() {
       <nav className='text-black flex justify-between h-12 bg-gradient-to-r from-blue-700 to-blue-400 ' >
         <span className='mx-2 my-2 flex text-black text-3xl font-bold	hover:animate-bounce'>Smartran</span>
         <ul className= 'px-2 py-4 flex space-x-11'>
-        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-xl">About</li>
-          <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl">Admin</li>
-          <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl">Client</li>
-          <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl">Notification</li>
+        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-xl font-bold">About</li>
+          <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold">Admin</li>
+          <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold">Client</li>
+          <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold">Notification</li>
           <div className=''>
           <ConnectWallet /></div>
 
