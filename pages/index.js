@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <div>
       <nav className='text-black flex justify-between h-12 bg-gradient-to-r from-blue-700 to-blue-400 ' >
-        <span className='mx-2 my-2 flex text-black text-3xl font-bold	hover:animate-bounce'>Smartran</span>
+        <span className='mx-2 my-2 flex text-black text-3xl font-bold	hover:animate-bounce'><a href = 'https://smartran.vercel.app/'>Smartran</a></span>
         <ul className= 'px-2 py-4 flex space-x-11'>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-xl font-bold">About</li>
           <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold">Admin</li>
@@ -23,7 +23,7 @@ export default function Home() {
           <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold">Notification</li>
           <div className='overflow-visible	'>
           <ConnectWallet /></div>
-         
+
 
 
 
@@ -43,6 +43,18 @@ export default function Home() {
       
 
       <footer className={styles.footer}>
+      <div className='flex items-center justify-center space-x-3'>
+        <a href='https://github.com/ayush035/Harmony'>
+        <img src='/github-1.png'></img></a>
+        <a href='https://twitter.com/___Ayushhh'>
+
+        <img src='/twitter-1.png'></img></a>
+
+
+
+
+      </div>
+      
         
       </footer>
     </div>
