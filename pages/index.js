@@ -21,8 +21,9 @@ export default function Home() {
           <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold">Admin</li>
           <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold">Client</li>
           <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold">Notification</li>
-          <div className=''>
+          <div className='overflow-visible	'>
           <ConnectWallet /></div>
+         
 
 
 
@@ -30,6 +31,11 @@ export default function Home() {
       </nav>
       
       </div>
+      <div className='flex items-center justify-center opacity-20	'>
+      <main>
+            <img src='/logo.png' ></img>
+          </main>
+          </div>
 
     
 
