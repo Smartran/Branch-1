@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { ConnectWallet } from "@thirdweb-dev/react";
+import Link from 'next/link';
 
 
 
@@ -15,12 +16,14 @@ export default function navbar() {
       </Head> */}
       <div>
       <nav className='text-black flex justify-between h-12 bg-gradient-to-r from-blue-700 to-blue-400 ' >
-        <span className='mx-2 my-2 flex text-black text-3xl font-bold	hover:animate-bounce'><a href = 'https://smartran.vercel.app/'>Smartran</a></span>
+        <span className='mx-2 my-2 flex text-black text-3xl font-bold	hover:animate-bounce'><Link href={"/"}>Smartran</Link></span>
         <ul className= 'px-2 py-4 flex space-x-11'>
-        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-xl font-bold">About</li>
-        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold">Admin</li>
-        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold">Client</li>
-        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold">Notification</li>
+          <Link href={"/about"}>
+        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-xl font-bold hover:text-white">About</li>
+        </Link>
+        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Admin</li>
+        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Client</li>
+        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Notification</li>
         <div className='overflow-visible'>
         <ConnectWallet /></div>
 
