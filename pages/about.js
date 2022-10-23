@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import navbar from '../components/navbar'
-import footer from '../components/footer'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function about() {
     return (
         <>
-        <navbar />
+        <Navbar />
         <div>
             <main>
                 <div>
@@ -75,7 +75,7 @@ export default function about() {
                 
             </main>
         </div>
-        < footer  />
+        <Footer  />
 
         </>
     
