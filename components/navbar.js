@@ -15,9 +15,9 @@ export default function navbar() {
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
       <div>
-      <nav className='text-black flex justify-between h-12 bg-gradient-to-r from-blue-700 to-blue-400 ' >
+      <nav className='text-black flex justify-between h-11 bg-gradient-to-r from-blue-700 to-blue-400 ' >
         <span className='mx-2 my-2 flex text-black text-3xl font-bold	hover:animate-bounce'><Link href={"/"}>Smartran</Link></span>
-        <ul className= 'px-2 py-4 flex space-x-11'>
+        <ul className= 'px-2 py-3 flex space-x-11'>
           <Link href={"/about"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-xl font-bold hover:text-white">About</li>
         </Link>
