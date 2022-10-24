@@ -7,6 +7,7 @@ import styles from '../styles/Home.module.css'
 export default function Footer() {
 return (
     <footer className={styles.footer}>
+        
     <div className='flex items-center justify-center space-x-6 cursor-pointer '>
 
 
@@ -27,10 +28,11 @@ return (
     <img src='/twitter-1.png'>
         </img>
         </a>
+       
     </div>
-
-
-
+    <div className='text-gray-500 '>
+        Copyright © 2022 Smartran Inc. All rights reserved
+        </div>
 
     </div>
     
