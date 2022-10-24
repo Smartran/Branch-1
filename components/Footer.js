@@ -8,7 +8,7 @@ export default function Footer() {
 return (
     <footer className={styles.footer}>
         
-    <div className='flex items-center justify-center space-x-6 cursor-pointer '>
+    <div className='flex items-center justify-center space-x-4 cursor-pointer '>
 
 
     <div className='transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  opacity-30 hover:opacity-90'>
@@ -17,6 +17,10 @@ return (
     <img src='/github-1.png'>
         </img>
         </a>
+        </div>
+        <div className='text-gray-700 text-3xl'>
+        |
+
         </div>
 
 
