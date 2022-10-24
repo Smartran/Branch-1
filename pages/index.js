@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 // import { ConnectWallet } from "@thirdweb-dev/react";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Logo from '../public/Logo.png'
 
 
 
@@ -24,8 +25,8 @@ export default function Home() {
       <div className='flex items-center justify-center opacity-20	'>
       <main>
             <Image 
-            src={logo}
-            alt='.'
+            src={Logo}
+            alt=''
             width="800px"
             height="600px">
             </Image>
