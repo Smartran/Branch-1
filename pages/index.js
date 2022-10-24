@@ -24,8 +24,8 @@ export default function Home() {
       <div className='flex items-center justify-center opacity-20	'>
       <main>
             <Image 
-            src='/logo.png' 
-            alt=''
+            src={logo}
+            alt='.'
             width="800px"
             height="600px">
             </Image>
