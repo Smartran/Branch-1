@@ -23,8 +23,12 @@ export default function Home() {
 
       <div className='flex items-center justify-center opacity-20	'>
       <main>
-            <img src='/logo.png' >
-            </img>
+            <Image 
+            src='/logo.png' 
+            alt=''
+            width="800px"
+            height="600px">
+            </Image>
             
           </main>
           </div>
