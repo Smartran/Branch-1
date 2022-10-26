@@ -20,7 +20,6 @@ return (
         </div>
         <div className='text-gray-700 text-3xl'>
         |
-
         </div>
 
 

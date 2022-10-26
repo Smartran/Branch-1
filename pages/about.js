@@ -71,6 +71,21 @@ export default function about() {
             way.
           </p>
           </div>
+        
+          <div>
+          
+          <h2 className='text-white text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>🎯 Goal</h2>
+          <p className=' text-white text-xl p-3 mx-auto'>
+            Our ultimate goal is to make transactions and payouts much more
+            <br />
+            convenient, transparent and Totally Decentralized. Solving issues
+            <br />
+            faced by almost everyone in todays world. We Aim at resolving
+            <br />
+            financial issues faced by common people
+            <br />
+          </p>
+          </div>
 
                 
             </main>
