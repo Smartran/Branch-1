@@ -25,7 +25,9 @@ export default function navbar() {
         <Link href={"/client"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Client</li>
         </Link>
+        <Link href={"/noti"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Notification</li>
+        </Link>
         <div className='overflow-visible'>
         {/* <ConnectWallet />*/} 
         </div> 

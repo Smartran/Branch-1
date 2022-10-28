@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-export default function about() {
+export default function client() {
     return (
         <>
         <Navbar  />
@@ -17,5 +17,5 @@ export default function about() {
         </div>
         <Footer />
         </>
-    )
+        )
     }
