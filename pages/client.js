@@ -8,14 +8,12 @@ export default function about() {
     return (
         <>
         <Navbar  />
-        <div className='text-6xl text-white'>
+        <div className='flex justify-center items-center'>
+        <div className='text-6xl text-white my-28'>
+            
             Website under development ! 🛠
 
-        <div className='text-3xl text-white'>
-            We will be right back... 😉
-
         </div>
-
         </div>
         <Footer />
         </>
