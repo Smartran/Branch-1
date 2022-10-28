@@ -22,7 +22,9 @@ export default function navbar() {
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-xl font-bold hover:text-white">About</li>
         </Link>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Admin</li>
+        <Link href={"/client"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Client</li>
+        </Link>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Notification</li>
         <div className='overflow-visible'>
         {/* <ConnectWallet />*/} 
