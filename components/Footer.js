@@ -26,7 +26,7 @@ return (
 
 
     <div className='transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer opacity-30 hover:opacity-90'>
-    <a href='https://twitter.com/___Ayushhh'>
+    <a href='https://twitter.com/Smartran5'>
 
     <img src='/twitter-1.png'>
         </img>
