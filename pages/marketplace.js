@@ -8,6 +8,13 @@ export default function marketplace() {
     return (
         <>
         <Navbar  />
+        <div className='flex justify-center items-center'>
+        <div className='text-3xl text-white font-bold mx-4 my-4 bg-gradient-to-r from-blue-700 to-blue-500 w-1/3 rounded-lg flex x'>
+            <div className='mx-4 my-4'>
+        Mint your own customized money streaming NFTs !
+        </div>
+        </div>
+        </div>
         <div className="right flex flex-col bg-gradient-to-r from-blue-700 to-blue-500 p-8 rounded-xl w-1/4 mx-4 my-4">
         <input className ="px-4 h-12 my-2 border border-1 border-gray-600 rounded-lg outline-blue-600 bg-white text-black" type="text" placeholder="Amount (USD)"/>
         <input className ="px-4 h-12 my-2 border border-1 border-gray-600 rounded-lg outline-blue-600 bg-white text-black" type="text" placeholder="Enter Wallet Address"/>
