@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-// import { ConnectWallet } from "@thirdweb-dev/react";
 import Link from 'next/link';
 
 
@@ -26,7 +25,6 @@ export default function navbar() {
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Marketplace</li>
         </Link>
         <div className='overflow-visible'>
-        {/* <ConnectWallet />*/} 
         </div> 
 
 
