@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import def from '../public/def.gif'
 import lock from '../public/lock.png'
+import sol from '../public/sol.jpg'
+
 
 
 export default function about() {
@@ -69,7 +71,8 @@ export default function about() {
           </p>
         </div>
         </div>
-        <div>
+        <div  className="flex justify-end items-center my-4 ">
+        <div className="flex flex-col">
           <h2 className='text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>🛠 Solution</h2>
           <p className=' text-white text-xl p-3 mx-auto'>
             Our Application provides live time streaming of money that flows
@@ -96,6 +99,15 @@ export default function about() {
             <br />
             way.
           </p>
+          </div>
+          <div className='mx-36 scroll-my-5'>
+          <Image
+          src={sol}
+          alt=''
+            width="400px"
+            height="350px">
+
+            </Image></div> 
           </div>
         
           <div>
