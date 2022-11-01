@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import def from '../public/def.gif'
+import lock from '../public/lock.png'
+
 
 export default function about() {
     return (
@@ -37,7 +39,16 @@ export default function about() {
             </Image></div> 
 
         </div>
-        <div>
+        <div className="flex justify-end items-center my-4 ">
+        <div className='mx-36 scroll-my-5'>
+          <Image
+          src={lock}
+          alt=''
+            width="400px"
+            height="350px">
+
+            </Image></div> 
+        <div className="flex flex-col">
           <h2 className='text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>⚓️ The problem </h2>
           <p className=' text-white text-xl p-3 mx-auto'>
             In the current and recurring payoff system we are paid once in month
@@ -56,6 +67,7 @@ export default function about() {
             <br />
             many ways.
           </p>
+        </div>
         </div>
         <div>
           <h2 className='text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>🛠 Solution</h2>
