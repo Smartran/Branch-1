@@ -6,6 +6,8 @@ import Footer from '../components/Footer'
 import def from '../public/def.gif'
 import lock from '../public/lock.png'
 import sol from '../public/sol.jpg'
+import goal from '../public/goal.png'
+
 
 
 
@@ -110,7 +112,17 @@ export default function about() {
             </Image></div> 
           </div>
         
-          <div>
+          <div className="flex justify-end items-center my-4 ">
+          <div className='mx-36 scroll-my-5'>
+          <Image
+          src={goal}
+          alt=''
+            width="400px"
+            height="350px">
+
+            </Image></div> 
+          
+        <div className="flex flex-col">
           
           <h2 className='text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>🎯 Goal</h2>
           <p className=' text-white text-xl p-3 mx-auto'>
@@ -123,6 +135,7 @@ export default function about() {
             financial issues faced by common people
             <br />
           </p>
+          </div>
           </div>
           </div>               
             </main>
