@@ -3,15 +3,19 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import def from '../public/def.gif'
 
 export default function about() {
     return (
         <>
         <Navbar />
-        <div>
+        <div className='flex my-4'>
+          
             <main>
-                <div>
-            <h2 className=' text-white text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer '>🔗 Defi </h2>
+              <div className='grid grid-cols-1'>
+              <div className="flex justify-end items-center my-4 ">
+              <div className="flex flex-col">
+            <h2 className=' text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer '>🔗 Defi </h2>
           <p className=' text-white text-xl p-3 mx-auto '>
             Our project aims to make transactions (mainly payment of salaries
             <br />
@@ -22,9 +26,19 @@ export default function about() {
             or everyone receiving payment for their work as a job.
             <br />
           </p>
+          </div>
+          <div className='mx-32'>
+          <Image
+          src={def}
+          alt=''
+            width="500px"
+            height="350px">
+
+            </Image></div>
+
         </div>
         <div>
-          <h2 className='text-white text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>⚓️ The problem </h2>
+          <h2 className='text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>⚓️ The problem </h2>
           <p className=' text-white text-xl p-3 mx-auto'>
             In the current and recurring payoff system we are paid once in month
             <br />
@@ -44,7 +58,7 @@ export default function about() {
           </p>
         </div>
         <div>
-          <h2 className='text-white text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>🛠 Solution</h2>
+          <h2 className='text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>🛠 Solution</h2>
           <p className=' text-white text-xl p-3 mx-auto'>
             Our Application provides live time streaming of money that flows
             <br />
@@ -74,7 +88,7 @@ export default function about() {
         
           <div>
           
-          <h2 className='text-white text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>🎯 Goal</h2>
+          <h2 className='text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>🎯 Goal</h2>
           <p className=' text-white text-xl p-3 mx-auto'>
             Our ultimate goal is to make transactions and payouts much more
             <br />
@@ -86,8 +100,7 @@ export default function about() {
             <br />
           </p>
           </div>
-
-                
+          </div>               
             </main>
         </div>
         <Footer  />
