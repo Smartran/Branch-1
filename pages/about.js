@@ -27,14 +27,14 @@ export default function about() {
             <br />
           </p>
           </div>
-          <div className='mx-32'>
+          <div className='mx-36 scroll-my-5'>
           <Image
           src={def}
           alt=''
             width="500px"
             height="350px">
 
-            </Image></div>
+            </Image></div> 
 
         </div>
         <div>

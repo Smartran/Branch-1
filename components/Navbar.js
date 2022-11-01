@@ -9,8 +9,8 @@ export default function navbar() {
   return (
     <div>
       <div>
-      <nav className=' flex justify-between h-11  text-neon-100 font-bold' >
-        <span className='mx-2 my-2 flex text-neon-100 text-3xl	hover:animate-bounce'><Link href={"/"}>Smartran</Link></span>
+      <nav className=' flex justify-between h-10  text-neon-100  font-bold' >
+        <span className='mx-4 my-2 flex text-neon-100 text-3xl	hover:animate-bounce'><Link href={"/"}>Smartran</Link></span>
         <ul className= 'px-2 py-3 flex space-x-11'>
           <Link href={"/about"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-xl font-bold hover:text-white">About</li>
