@@ -3,9 +3,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import def from '../public/def.gif'
-import lock from '../public/lock.png'
-import sol from '../public/sol.jpg'
+import Logo from '../public/Logo.png'
+import shield from '../public/shield.png'
+import wing from '../public/wing.png'
 import goal from '../public/goal.png'
 
 
@@ -35,7 +35,7 @@ export default function about() {
           </div>
           <div className='mx-36 scroll-my-5'>
           <Image
-          src={def}
+          src={Logo}
           alt=''
             width="500px"
             height="350px">
@@ -46,7 +46,7 @@ export default function about() {
         <div className="flex justify-end items-center my-4 ">
         <div className='mx-36 scroll-my-5'>
           <Image
-          src={lock}
+          src={shield}
           alt=''
             width="400px"
             height="350px">
@@ -104,7 +104,7 @@ export default function about() {
           </div>
           <div className='mx-36 scroll-my-5'>
           <Image
-          src={sol}
+          src={wing}
           alt=''
             width="400px"
             height="350px">
