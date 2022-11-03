@@ -42,7 +42,7 @@ export default function Home() {
           src={Logo}
           alt=''
             width="500px"
-            height="350px">
+            height="370px">
 
             </Image></div> 
 
@@ -53,7 +53,7 @@ export default function Home() {
           src={shield}
           alt=''
             width="400px"
-            height="350px">
+            height="400px">
 
             </Image></div> 
         <div className="flex flex-col">
