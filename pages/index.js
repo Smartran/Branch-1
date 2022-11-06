@@ -25,8 +25,8 @@ export default function Home() {
               <div className='grid grid-cols-1'>
               <div className="flex justify-end items-center my-4 ">
               <div className="flex flex-col">
-            <h2 className=' text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer '>🔗 Defi </h2>
-          <p className=' text-white text-xl p-3 mx-auto '>
+            <h2 className=' text-purple-500 text-3xl font-bold  mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer '>🔗 DeFi </h2>
+          <p className=' text-white text-xl p-3 mx-auto font-bold'>
             Our project aims to make transactions (mainly payment of salaries
             <br />
             and deals) completely decentralized and transparent along with
@@ -57,8 +57,8 @@ export default function Home() {
 
             </Image></div> 
         <div className="flex flex-col">
-          <h2 className='text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>⚓️ The problem </h2>
-          <p className=' text-white text-xl p-3 mx-auto'>
+       < h2 className=' text-purple-500 text-3xl font-bold  mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer '>⚓️ The problem </h2>
+          <p className=' text-white text-xl p-3 mx-auto font-bold'>
             In the current and recurring payoff system we are paid once in month
             <br />
             and then have to wait for another month to get paid . This arises
@@ -79,8 +79,8 @@ export default function Home() {
         </div>
         <div  className="flex justify-end items-center my-4 ">
         <div className="flex flex-col">
-          <h2 className='text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>🛠 Solution</h2>
-          <p className=' text-white text-xl p-3 mx-auto'>
+        < h2 className=' text-purple-500 text-3xl font-bold  mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer '>🛠 Solution</h2>
+          <p className=' text-white text-xl p-3 mx-auto font-bold'>
             Our Application provides live time streaming of money that flows
             <br />
             into the account of clients continuously with every second of time
@@ -128,8 +128,8 @@ export default function Home() {
           
         <div className="flex flex-col">
           
-          <h2 className='text-neon-100 text-2xl font-bold font-mono mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer'>🎯 Goal</h2>
-          <p className=' text-white text-xl p-3 mx-auto'>
+        < h2 className=' text-purple-500 text-3xl font-bold  mx-4 py-2 transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer '>🎯 Goal</h2>
+          <p className=' text-white text-xl p-3 mx-auto font-bold'>
             Our ultimate goal is to make transactions and payouts much more
             <br />
             convenient, transparent and Totally Decentralized. Solving issues

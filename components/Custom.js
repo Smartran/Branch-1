@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Custom() {
     return (
-<div className=" flex flex-col bg-neon-100  rounded-xl p-8 w-1/4 mx-4 my-4 col-span-4">
+<div className=" flex flex-col bg-slate-900 text-purple-500   rounded-xl p-8 w-1/4 mx-4 my-4 col-span-4">
                 <input className="px-4 h-12 my-2 border border-1 border-gray-600 rounded-lg outline-blue-600 bg-white text-black" type="text" placeholder="Amount (USD)" />
                 <input className="px-4 h-12 my-2 border border-1 border-gray-600 rounded-lg outline-blue-600 bg-white text-black" type="text" placeholder="Enter Wallet Address" />
                 <input className="px-4 h-12 my-2 border border-1 border-gray-600 rounded-lg outline-blue-600 bg-white text-black" type="password" placeholder="Add a note" />
