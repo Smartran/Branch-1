@@ -18,8 +18,8 @@ export default function navbar() {
         <Link href={"/admin"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Admin</li>
         </Link>
-        <Link href={"/client"}>
-        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Client</li>
+        <Link href={"/custom"}>
+        <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Customize</li>
         </Link>
         <Link href={"/marketplace"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Marketplace</li>
