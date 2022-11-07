@@ -6,7 +6,7 @@ import {
     useMetamask,
   } from "@thirdweb-dev/react";
   
-  const Home = () => {
+  const ConnectWallet= () => {
     const address = useAddress();
     const connect = useMetamask();
   
@@ -29,4 +29,4 @@ import {
     );
   };
   
-  export default Home;
+  export default ConnectWallet ;
