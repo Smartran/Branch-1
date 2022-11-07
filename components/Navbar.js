@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
+import ConnectWallet from '../components/ConnectWallet'
 
 
 
@@ -15,15 +16,16 @@ export default function navbar() {
           <Link href={"/"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-xl font-bold hover:text-white">About</li>
         </Link>
-        <Link href={"/admin"}>
+        {/* <Link href={"/admin"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Admin</li>
-        </Link>
+        </Link> */}
         <Link href={"/custom"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Customize</li>
         </Link>
         <Link href={"/marketplace"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Marketplace</li>
         </Link>
+        <ConnectWallet/>
         <div className='overflow-visible'>
         </div> 
 
