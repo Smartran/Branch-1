@@ -21,7 +21,7 @@ export default function marketplace() {
             
 
             <div className='grid grid-cols-3 gap-2 '>
-                <div className=' bg-gray-900 text-white mx-2 my-2 rounded-xl'>
+                <div className=' bg-black text-white mx-2 my-2 rounded-xl  ring-2 ring-pink-500 ring-inset'>
                 <div className="mx-2 my-2">
                     <Image src={Logo} 
                     alt='' height="260px" width='400px'>
@@ -37,14 +37,14 @@ export default function marketplace() {
     Details : The NFT will stream the money which is equivalent to its worth
                     </div>
     <div className='flex justify-center items-center my-2'>
-    <div className='rounded-3xl bg-black'>
-                    <div className='  text-purple-500 mx-10 my-4 font-bold text-2xl cursor-pointer'>
+    <div className='rounded-3xl bg-gray-900  ring-1 ring-pink-500 ring-inset my-2'>
+                    <div className='  text-purple-500 mx-10 my-4 font-bold text-2xl cursor-pointer '>
                         Buy
                     </div>
                     </div>
                     </div>
                 </div>
-                <div className=' bg-gray-900 text-white mx-2 my-2 rounded-xl'>
+                <div className=' bg-black text-white mx-2 my-2 rounded-xl ring-2 ring-pink-500 ring-inset'>
                 <div className="mx-2 my-2">
                     <Image src={Logo} 
                     alt='' height="260px" width='400px'>
@@ -60,7 +60,7 @@ export default function marketplace() {
     Details : The NFT will stream the money which is equivalent to its worth
                     </div>
     <div className='flex justify-center items-center my-2'>
-    <div className='rounded-3xl bg-black'>
+    <div className='rounded-3xl bg-gray-900  ring-1 ring-pink-500 ring-inset my-2'>
                     <div className='  text-purple-500 mx-10 my-4 font-bold text-2xl cursor-pointer'>
                         Buy
                     </div>
@@ -69,7 +69,7 @@ export default function marketplace() {
                 </div>
 
 
-                <div className=' bg-gray-900 text-white mx-2 my-2 rounded-xl'>
+                <div className=' bg-black text-white mx-2 my-2 rounded-xl ring-2 ring-pink-500 ring-inset'>
                 <div className="mx-2 my-2">
                     <Image src={Logo} 
                     alt='' height="260px" width='400px'>
@@ -85,7 +85,7 @@ export default function marketplace() {
     Details : The NFT will stream the money which is equivalent to its worth
                     </div>
     <div className='flex justify-center items-center my-2'>
-    <div className='rounded-3xl bg-black'>
+    <div className='rounded-3xl bg-gray-900  ring-1 ring-pink-500 ring-inset my-2'>
                     <div className='  text-purple-500 mx-10 my-4 font-bold text-2xl cursor-pointer'>
                         Buy
                     </div>
@@ -93,7 +93,7 @@ export default function marketplace() {
                     </div>
                 </div>
 
-                <div className=' bg-gray-900 text-white mx-2 my-2 rounded-xl'>
+                <div className=' bg-black text-white mx-2 my-2 rounded-xl ring-2 ring-pink-500 ring-inset'>
                 <div className="mx-2 my-2">
                     <Image src={Logo} 
                     alt='' height="260px" width='400px'>
@@ -109,7 +109,7 @@ export default function marketplace() {
     Details : The NFT will stream the money which is equivalent to its worth
                     </div>
     <div className='flex justify-center items-center my-2'>
-    <div className='rounded-3xl bg-black'>
+    <div className='rounded-3xl bg-gray-900  ring-1 ring-pink-500 ring-inset my-2'>
                     <div className='  text-purple-500 mx-10 my-4 font-bold text-2xl cursor-pointer'>
                         Buy
                     </div>
@@ -117,7 +117,7 @@ export default function marketplace() {
                     </div>
                 </div>
 
-                <div className=' bg-gray-900 text-white mx-2 my-2 rounded-xl'>
+                <div className=' bg-black text-white mx-2 my-2 rounded-xl ring-2 ring-pink-500 ring-inset'>
                 <div className="mx-2 my-2">
                     <Image src={Logo} 
                     alt='' height="260px" width='400px'>
@@ -133,7 +133,7 @@ export default function marketplace() {
     Details : The NFT will stream the money which is equivalent to its worth
                     </div>
     <div className='flex justify-center items-center my-2'>
-    <div className='rounded-3xl bg-black'>
+    <div className='rounded-3xl bg-gray-900  ring-1 ring-pink-500 ring-inset my-2'>
                     <div className='  text-purple-500 mx-10 my-4 font-bold text-2xl cursor-pointer'>
                         Buy
                     </div>
@@ -143,7 +143,7 @@ export default function marketplace() {
 
 
 
-                <div className=' bg-gray-900 text-white mx-2 my-2 rounded-xl'>
+                <div className=' bg-black text-white mx-2 my-2 rounded-xl ring-2 ring-pink-500 ring-inset'>
                 <div className="mx-2 my-2">
                     <Image src={Logo} 
                     alt='' height="260px" width='400px'>
@@ -159,7 +159,7 @@ export default function marketplace() {
     Details : The NFT will stream the money which is equivalent to its worth
                     </div>
     <div className='flex justify-center items-center my-2'>
-    <div className='rounded-3xl bg-black'>
+    <div className='rounded-3xl bg-gray-900  ring-1 ring-pink-500 ring-inset my-2'>
                     <div className='  text-purple-500 mx-10 my-4 font-bold text-2xl cursor-pointer'>
                         Buy
                     </div>
@@ -171,7 +171,7 @@ export default function marketplace() {
 
 
 
-                <div className=' bg-gray-900 text-white mx-2 my-2 rounded-xl'>
+                <div className=' bg-black text-white mx-2 my-2 rounded-xl ring-2 ring-pink-500 ring-inset'>
                 <div className="mx-2 my-2">
                     <Image src={Logo} 
                     alt='' height="260px" width='400px'>
@@ -187,7 +187,7 @@ export default function marketplace() {
     Details : The NFT will stream the money which is equivalent to its worth
                     </div>
     <div className='flex justify-center items-center my-2'>
-    <div className='rounded-3xl bg-black'>
+    <div className='rounded-3xl bg-gray-900  ring-1 ring-pink-500 ring-inset my-2'>
                     <div className='  text-purple-500 mx-10 my-4 font-bold text-2xl cursor-pointer'>
                         Buy
                     </div>
@@ -197,7 +197,7 @@ export default function marketplace() {
 
 
 
-                <div className=' bg-gray-900 text-white mx-2 my-2 rounded-xl'>
+                <div className=' bg-black text-white mx-2 my-2 rounded-xl ring-2 ring-pink-500 ring-inset'>
                 <div className="mx-2 my-2">
                     <Image src={Logo} 
                     alt='' height="260px" width='400px'>
@@ -213,7 +213,7 @@ export default function marketplace() {
     Details : The NFT will stream the money which is equivalent to its worth
                     </div>
     <div className='flex justify-center items-center my-2'>
-    <div className='rounded-3xl bg-black'>
+    <div className='rounded-3xl bg-gray-900  ring-1 ring-pink-500 ring-inset my-2'>
                     <div className='  text-purple-500 mx-10 my-4 font-bold text-2xl cursor-pointer'>
                         Buy
                     </div>
@@ -221,7 +221,7 @@ export default function marketplace() {
                     </div>
                 </div>
 
-                <div className=' bg-gray-900 text-white mx-2 my-2 rounded-xl'>
+                <div className=' bg-black text-white mx-2 my-2 rounded-xl ring-2 ring-pink-500 ring-inset'>
                 <div className="mx-2 my-2">
                     <Image src={Logo} 
                     alt='' height="260px" width='400px'>
@@ -237,7 +237,7 @@ export default function marketplace() {
     Details : The NFT will stream the money which is equivalent to its worth
                     </div>
     <div className='flex justify-center items-center my-2'>
-    <div className='rounded-3xl bg-black'>
+    <div className='rounded-3xl bg-gray-900  ring-1 ring-pink-500 ring-inset my-2'>
                     <div className='  text-purple-500 mx-10 my-4 font-bold text-2xl cursor-pointer'>
                         Buy
                     </div>
