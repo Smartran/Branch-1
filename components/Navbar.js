@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 
 
@@ -15,6 +16,7 @@ export default function navbar() {
           <Link href={"/"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-xl font-bold hover:text-white">About</li>
         </Link>
+
         <Link href={"/admin"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Admin</li>
         </Link>
@@ -24,10 +26,7 @@ export default function navbar() {
         <Link href={"/marketplace"}>
         <li className="transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer  text-xl font-bold hover:text-white">Marketplace</li>
         </Link>
-        <div className='overflow-visible'>
-        </div> 
-
-
+        <ConnectButton/>
 
 
         </ul>

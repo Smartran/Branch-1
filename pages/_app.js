@@ -3,6 +3,7 @@ import '@rainbow-me/rainbowkit/styles.css';
 import {
   getDefaultWallets,
   RainbowKitProvider,
+  darkTheme,
 } from '@rainbow-me/rainbowkit';
 import {
   chain,
@@ -36,11 +37,13 @@ const wagmiClient = createClient({
 function MyApp({ Component, pageProps }) {
   return (
     <WagmiConfig client={wagmiClient}>
-    <RainbowKitProvider chains={chains}
-     theme={darkTheme({
-      accentColor:
-        'linear-gradient(90deg , #E22FD6 100%, #8515F6 100%)',
-      borderRadius: 'large', })}      >
+    <RainbowKitProvider
+        chains={chains}
+        theme={darkTheme({
+          accentColor:
+            'linear-gradient(90deg , #E22FD6 100%, #8515F6 100%)',
+          borderRadius: 'large',
+        })}>
       <Component {...pageProps} />
       </RainbowKitProvider>
     </WagmiConfig>
