@@ -30,7 +30,7 @@ export default function custom() {
                 <input className="px-4 h-12 my-2 border border-1 border-gray-600 rounded-lg outline-blue-600 bg-white text-black" type="text" placeholder="Add a note" />
                 <button className="bg-slate-900 text-purple-500 my-2 py-2 rounded-md font-bold hover:bg-slate-700 text-xl">Upload Files</button>
                 <hr className="my-2" />
-                <button className=" bg-slate-900 text-purple-500 my-2 py-2 px-4 mx-auto rounded-md font-bold w-fit text-xl">Mint NFT</button>
+                <button className=" bg-slate-900 text-purple-500 my-2 py-2 px-4 mx-auto rounded-md font-bold w-fit text-xl hover:bg-slate-700">Mint NFT</button>
                 {/* <span className="-bottom-10 text-sm text-black font-bold">
                     NOTE : NFT will be minted to the entered wallet addresses !</span> */}
                     </div></div>
